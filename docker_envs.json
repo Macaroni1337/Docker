@@ -1,0 +1,10 @@
+{
+    "example_env_1": {
+        "image": "python:3.9",
+        "ports": "8080:80"
+    },
+    "example_env_2": {
+        "image": "nginx:latest",
+        "ports": "8081:80, 8443:443"
+    }
+}
